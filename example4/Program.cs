@@ -3,5 +3,6 @@
 Console.WriteLine("Введите число");
 int number = Convert.ToInt32(Console.ReadLine());
 int num = number % 2;
+
 if (num == 0){Console.WriteLine($" Введеное число четное ");}
     else Console.WriteLine($" Введеное число нечетное ");
