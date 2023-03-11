@@ -8,7 +8,6 @@ if (count < 1) { Console.WriteLine($" В числе {number} нет второг
 
 else
 {
-
     while (i > 0)
     {
         count2 = count2 * 10;
