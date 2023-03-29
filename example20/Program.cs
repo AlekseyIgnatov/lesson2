@@ -64,9 +64,9 @@ int columns = 0;
 bool a = false;
 while(a==false)
     {
-        Console.Write($"Введите количество строк ");
+        Console.Write($"Введите количество строк: ");
         rows = Convert.ToInt32(Console.ReadLine());
-        Console.Write($"Введите количество столбцов ");
+        Console.Write($"Введите количество столбцов: ");
         columns = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("");
         int n = rows * columns%2;
